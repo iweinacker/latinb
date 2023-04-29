@@ -315,3 +315,7 @@ footer {
             padding: 0 20px;
         }
 }
+/* for small screen sizes 800px and down (gallery)*/
+@media screen and(max-width:800px) {
+
+}
