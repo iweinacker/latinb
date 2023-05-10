@@ -59,10 +59,10 @@ The live link can be found here (link)
 
 ## Credits
 
-###content
+### content
 - The code to make the social media links was taken from the CI love running project.
 - The format of zoom effects, the head, and the restaurant section are based on the CI love running project too.
 
-###Media 
+### Media 
 - The image in the headers, restaurant and background form was taken from pexels.
 
