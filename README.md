@@ -21,7 +21,7 @@ IMAGENEES
 
 ### The about us Section 
 
--In the left side of section gives the detail about who we are, why are we doing this, the goal of the website and what to find, also there is an invitation for the visitor to apply to where they have the possibility to just receive news about news or events or, the possibility to apply your restaurant/ coffee or shop to be part of the website. For that they can go to the sign-up page or click on the word HERE.
+- In the left side of section gives the detail about who we are, why are we doing this, the goal of the website and what to find, also there is an invitation for the visitor to apply to where they have the possibility to just receive news about news or events or, the possibility to apply your restaurant/ coffee or shop to be part of the website. For that they can go to the sign-up page or click on the word HERE.
 - In the right side of the section is an image of traditional Central American people, which is very characteristic and people in Latin America identify it as an image that shows tradition and culture.
 - At the bottom of the image it has the word Restaurant which also guides to the next page Restaurant.
 
