@@ -1,39 +1,68 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Latin in Berlin
 
-Welcome,
+The Latin in Berlin website is designed to be a responsive website allowing the visitors to on a range of devices. It allows the visitors to interact and invite them to participate in the community as a client or also as a provider.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+IMAGENEES
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
 
-## Codeanywhere Reminders
+##features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+###Navigation
+- Feature at the top of the page, the navigation shows the website name in the left corner: LATINOS IN BERLIN that links to the top of the page
+- Other navigation links are to the right: Home, Restaurant and Sign-up which links to different sections in different pages.
+- Every page has the same structure with the purpose of generating a good user experience.
+- Also, we have a footer which contains the basic social media icon that links into the social media that corresponds.
 
-`python3 -m http.server`
+###The Header
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- The Header is an image that covers the hole header section. This image has a zoom function making the header more attractive. 
+- Also on the Restaurant page, have the same header structure but the image is different, making the user aware that they are on another page.
+- The images that are used are images that represent union or that stimulate the feeling of being part of the community, since the purpose of the site is just that, to create a community.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+###The about us Section 
 
-`http_server`
+-In the left side of section gives the detail about who we are, why are we doing this, the goal of the website and what to find, also there is an invitation for the visitor to apply to where they have the possibility to just receive news about news or events or, the possibility to apply your restaurant/ coffee or shop to be part of the website. For that they can go to the sign-up page or click on the word HERE.
+- In the right side of the section is an image of traditional Central American people, which is very characteristic and people in Latin America identify it as an image that shows tradition and culture.
+- At the bottom of the image it has the word Restaurant which also guides to the next page Restaurant.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+###Restaurant
+ - This page also begins with an image of a friendly group of friends eating in a Latin restaurant. 
+ - Below, there is a section which has the names, information, address, and a link that guides you directly to the restaurant or coffee website. 
+ - The information written in every restaurant is taken directly from their own website.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+###Sign up
+- This Sign-up page has a form to collect details from the visitors.
+- The form collects the name, last name, the address and there’s a comment space where people can write to us and talk about their restaurant, locals or events if they wanted to be part of this community.
+- Also, the Sign-up page has a background image, making the web page more harmonious. 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+##Testing
 
-To log into the Heroku toolbelt CLI:
+- I confirmed that the project is responsive, looks good and function a different standard screen sizes using the devtool device toolbar.
+- I confirm that the navigator responds correctly and takes you where it corresponds.
+- I confirm that every external link works and takes you where it corresponds.
+- I confirm that the form react at it should force you to give the full information except for the comment section.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+###Validator Testing
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Html: no errors were returned when passing through the official W3C validator
+- CSS: no errors were found passing through the official (jigsaw) validator
+- Accessibility: I confirmed that the colors and fonts chosen are easy to read and accessible by running through lighthouse in devtools.
 
----
+##Deployment
 
-Happy coding!
+- The site was deployed to the GitHub pages. The steps to deploy are as follows:
+1. In the GitHub repository, navigate to the setting tab
+2. From the source section drop-down menu, select the Master Branch
+3. Once the master branch has been selected, the page provides the link to the completed website.
+
+The live link can be found here (link)
+
+## Credits
+
+###content
+- The code to make the social media links was taken from the CI love running project.
+- The format of zoom effects, the head, and the restaurant section are based on the CI love running project too.
+
+###Media 
+- The image in the headers, restaurant and background form was taken from pexels.
+
