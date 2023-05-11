@@ -2,7 +2,7 @@
 
 The Latin in Berlin website is designed to be a responsive website allowing the visitors to on a range of devices. It allows the visitors to interact and invite them to participate in the community as a client or also as a provider.
 
-IMAGENEES
+![image](https://github.com/iweinacker/latinb/assets/130374663/7030b9b1-ea1b-43cd-9391-9b4e62381d60)
 
 
 ## features
