@@ -61,8 +61,8 @@ IMAGENEES
 
 ### Validator Testing
 
-- Html: no errors were returned when passing through the official W3C validator
-- CSS: no errors were found passing through the official (jigsaw) validator
+- Html: no errors were returned when passing through the official [W3C validator] https://validator.w3.org/#validate_by_input
+- CSS: no errors were found passing through the official [(jigsaw) validator] (https://jigsaw.w3.org/css-validator/#validate_by_input)
 - Accessibility: I confirmed that the colors and fonts chosen are easy to read and accessible by running through lighthouse in devtools.
 
 ![image](https://github.com/iweinacker/latinb/assets/130374663/36d65a36-ba58-4237-9aa6-8611316f0b41)
