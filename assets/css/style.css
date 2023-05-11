@@ -1,22 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    border: 0;
 }
 
 body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
     color: #3a3a3a;
 }
 
 /* headings and logo */
 
 h1,
-h2 {
-    font-family: serif, sans-serif;
+h2,
+h3 {
+    font-family: Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -24,20 +22,20 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 280px;
+    font-size: 280%;
     margin-left: 30px;
 }
 
-/*navigation links*/
-
-#menu,
-#logo {
-    line-height: 75px;
-}
+/* navigation links */
 
 #menu {
-    font-size: 100%;
+    font-size: 110%;
     letter-spacing: 4px;
+}
+
+#logo,
+#menu {
+    line-height: 75px;
 }
 
 #menu li {
@@ -51,7 +49,7 @@ h2 {
     color: inherit;
 }
 
-#menu a :hover {
+#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -59,36 +57,35 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/*hero image*/
+/* Hero image and cover text */
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
-}
-
-#cover-text,
-#cover-text h2 {
-    color: #fff;
 }
 
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("../image/hero-image.webp") no-repeat center center;
-
-    /*animates zoom effect on loading page*/
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    background-image: url(../images/friends.jpg);
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+#food-image { 
+        height: 600px;
+        width: 100%;
+        background-image: url(../images/restaurant.jpg);
+        background-position: 0%;
+        background-size: cover;
+        background-repeat: no-repeat;
 
 }
 
-/* creates the level of zoom for hero image*/
-
+/* Creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -99,9 +96,14 @@ h2 {
     }
 }
 
+#cover-text,
+#cover-text h2 {
+    color: #ffffff;
+}
+
 #cover-text {
     font-size: 130%;
-    font-family: Oswald, sans-serif;
+    font-family: Arial;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -117,39 +119,31 @@ h2 {
     right: 150px;
 
     position: absolute;
+
 }
 
-/*club ethos*/
+/* Latin ethos */
 
-#club-ethos {
+#latin-ethos {
     height: 600px;
 }
 
 #left-about {
     padding-top: 30px;
-    width: 33%;
+    width: 50%;
     float: left;
-
 }
 
 #right-about {
-    padding-top: 30px;
-    width: 33%;
+    padding-top: 100px;
+    width: 40%;
     float: right;
-
-}
-
-#center-about {
-
-    width: 33%;
-    margin: 0 auto;
-    color: green;
 }
 
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    margin: 5px;
+    margin: 5px 0;
 }
 
 .left-about-heading {
@@ -161,48 +155,94 @@ hr {
 }
 
 .right-about-heading {
-    width: 60%;
+    width: 30%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
 
-.right-about-heading h2 {
-    text-align: right;
-}
-
 .right-about-heading p {
     text-align: right;
 }
 
+.right-about-heading h2 {
+    text-align: right;
+}
+
+/* Latin ethos  image */
+
 #welcome {
-    text-align: center;
     margin: 20px 0;
+    text-align: center;
     font-size: 280%;
 }
 
-#cicle-container {
+#circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
+    border-color: #f16c6b;
+    border-width: 5px;
     margin: 0 auto;
 }
 
+ #to-restaurant{
+   
+    color: black;
+    font-size: smaller;
+    text-align: center;
+
+ }
+
 #circle-cover-bg {
-    background: url("../images/ethos-center-image.jpg") no-repeat center center;
+    background-image: url(../images/cuba.jpg);
+    background-size: cover;
     height: 100%;
-    border-radius: 50%
+    
 }
 
-/*event times*/
+/* Event times */
+
+.link {
+    color: #cccccc;
+}
 
 #times {
-    background-image: url("../images/times-background.webp");
+    background-image: url('../images/group-friends.jpg');
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    #times div {
+        color: #fafafa;
+        background-color: rgba(0, 0, 0, .6);
+        width: 20%;
+        height: 300px;
+        float: left;
+        padding: 30px 0 0 10px;
+        text-align: center;
+        border: 2px solid white;
+        box-sizing: border-box;
+    }
+    
+    #times h2 {
+        color: #fafafa;
+    }
+
+/* restaurant*/
+
+.link {
+    color: #cccccc;
+}
+
+#restaurant {
+
+background-image: url(../images/restaurant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -210,23 +250,25 @@ hr {
     overflow: hidden;
 }
 
-#times div {
-    color: white;
-    background-color: rgba(0, 0, 0, .6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
+#restaurant div {
+    color: #fafafa;
+        background-color: rgba(0, 0, 0, .6);
+        width: 20%;
+        height: 400px;
+        float: left;
+        padding: 30px 0 0 10px;
+        text-align: center;
+        border: 2px solid white;
+        box-sizing: border-box;
+    
 }
 
-#times h2 {
+#restaurant h2, h3 {
     color: #fafafa;
 }
 
-/*footer*/
+
+/* Footer */
 
 footer {
     height: 150px;
@@ -234,9 +276,10 @@ footer {
 
 .social-networks {
     text-align: center;
+
 }
 
-.social-networks>li {
+.social-networks li {
     display: inline;
 }
 
@@ -244,11 +287,68 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a
+    color: #3a3a3a;
 }
 
+/* Form */
+.form-section {
+    clear: left;
+    background: url(../images/coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form>h2, h3 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #club-ethos {
+    #latin-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -256,7 +356,8 @@ footer {
 
     #welcome {
         padding: 30px 0;
-        margin: 0;
+        margin-top: 0;
+        font-size: 150%;
     }
 
     #left-about,
@@ -268,12 +369,12 @@ footer {
 
     #center-about {
         clear: both;
-        width: 100;
+        width: 100%;
         float: left;
         padding: 0;
     }
 
-    #times > div {
+    #restaurant div {
         width: 100%;
         clear: both;
         height: 150px;
@@ -285,8 +386,10 @@ footer {
     }
 }
 
+/* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    menu {
+
+    #menu {
         clear: left;
         float: left;
         margin-left: 30px;
@@ -297,25 +400,26 @@ footer {
     #cover-text {
         left: 0;
     }
-    #club-ethos {
+
+    #latin-ethos {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading {
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
-    .left-about-heading h2, .right-about-heading h2 {
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
-        .left-about-heading p, .right-about-heading p {
-            text-align: center;
-            padding: 0 20px;
-        }
-}
-/* for small screen sizes 800px and down (gallery)*/
-@media screen and(max-width:800px) {
 
-}
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
