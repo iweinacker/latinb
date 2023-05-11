@@ -8,6 +8,8 @@ IMAGENEES
 ## features
 
 ### Navigation
+![image](https://github.com/iweinacker/latinb/assets/130374663/2366b2e4-da23-40af-b8f7-1868c3173425)
+
 - Feature at the top of the page, the navigation shows the website name in the left corner: LATINOS IN BERLIN that links to the top of the page
 - Other navigation links are to the right: Home, Restaurant and Sign-up which links to different sections in different pages.
 - Every page has the same structure with the purpose of generating a good user experience.
