@@ -78,7 +78,7 @@ h3 {
 #food-image { 
         height: 600px;
         width: 100%;
-        background-image: url(../images/restaurants.jpg);
+        background-image: url(../images/restaurant.jpg);
         background-position: 0%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -242,7 +242,7 @@ hr {
 
 #restaurant {
 
-    background-image: url(../images/restaurants.jpg);
+background-image: url(../images/restaurant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
