@@ -17,9 +17,12 @@ IMAGENEES
 
 ### The Header
 
-- The Header is an image that covers the hole header section. This image has a zoom function making the header more attractive. 
+- The Header is an image that covers the hole header section.
 - Also on the Restaurant page, have the same header structure but the image is different, making the user aware that they are on another page.
 - The images that are used are images that represent union or that stimulate the feeling of being part of the community, since the purpose of the site is just that, to create a community.
+
+![image](https://github.com/iweinacker/latinb/assets/130374663/7c03d51d-9c90-46b3-83f8-e0c226c932d6)
+
 
 ### The about us Section 
 
@@ -27,15 +30,24 @@ IMAGENEES
 - In the right side of the section is an image of traditional Central American people, which is very characteristic and people in Latin America identify it as an image that shows tradition and culture.
 - At the bottom of the image it has the word Restaurant which also guides to the next page Restaurant.
 
+![image](https://github.com/iweinacker/latinb/assets/130374663/ed946c45-68df-4300-87c2-771e18f5444a)
+
+
 ### Restaurant
  - This page also begins with an image of a friendly group of friends eating in a Latin restaurant. 
  - Below, there is a section which has the names, information, address, and a link that guides you directly to the restaurant or coffee website. 
  - The information written in every restaurant is taken directly from their own website.
 
+![image](https://github.com/iweinacker/latinb/assets/130374663/7392ad6c-826c-44e2-b442-3de4eef20a71)
+
+
 ### Sign up
 - This Sign-up page has a form to collect details from the visitors.
 - The form collects the name, last name, the address and there’s a comment space where people can write to us and talk about their restaurant, locals or events if they wanted to be part of this community.
 - Also, the Sign-up page has a background image, making the web page more harmonious. 
+
+![image](https://github.com/iweinacker/latinb/assets/130374663/03102097-eaab-4daf-843a-ae25090c58c9)
+
 
 ## Testing
 
@@ -49,6 +61,9 @@ IMAGENEES
 - Html: no errors were returned when passing through the official W3C validator
 - CSS: no errors were found passing through the official (jigsaw) validator
 - Accessibility: I confirmed that the colors and fonts chosen are easy to read and accessible by running through lighthouse in devtools.
+
+![image](https://github.com/iweinacker/latinb/assets/130374663/36d65a36-ba58-4237-9aa6-8611316f0b41)
+
 
 ## Deployment
 
