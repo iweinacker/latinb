@@ -15,6 +15,9 @@ IMAGENEES
 - Every page has the same structure with the purpose of generating a good user experience.
 - Also, we have a footer which contains the basic social media icon that links into the social media that corresponds.
 
+![image](https://github.com/iweinacker/latinb/assets/130374663/2a193d58-c3db-494b-8354-25e356a424f2)
+
+
 ### The Header
 
 - The Header is an image that covers the hole header section.
