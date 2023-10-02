@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Community for the latinos in berlin">
     <meta name="keywords" content="latinos berlin, restaurant latino, latin events">
-
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Latinos in Berlin</title>
 </head>
@@ -15,6 +17,7 @@
     <!--Header and menu section-->
     <header>
         <a href="index.html">
+            <i class="fa-thin fa-earth-americas fa-sm" style="color: #884f2b;"></i>
             <h1 id="logo">Latinos in Berlin</h1>
         </a>
         <nav>
@@ -39,82 +42,89 @@
 
     </section>
     <br>
-
-<!--About us section-->
-    <section id="latin-ethos">
-        <h2 id="welcome">About us</h2>
-        <div id="left-about">
-            <div class="left-about-heading">
-                <h2> Who are we?</h2>
-                <hr>
-                <p>
-                We are a community of Latinamerican people living in Berlin where, despite the distance, we remain connected to our culture.
-                </p>
-            </div>
-            <div class="left-about-heading">
-                <h2>Purpose </h2>
-                <hr>
-                <p>Our purpose is to create an active community of Latin Americans where we can promote our culture here in Berlin.</p>
-            </div>
-            <div class="left-about-heading">
-                <h2>What will you find here? </h2>
-                <hr>
-                <p>
-                For now, you will only find latin restaurants and cafes, but our idea is to keep expanding so that
-                you can also find
-                shops of all kinds and events.
-                </p>
-            </div>
-            <div class="left-about-heading">
-                <h2>How can I be part of this community?</h2> 
-                <hr>
-                <p>
-                    Very easy!! You just have to subscribe on the sign up page and, if you want to promote your business or event, write in
-                    the comment so that we can contact you.
-                    If you want to go to the subscription page you must go to the corresponding page or just <a href="signup.html"><b>click here!!</b></a> 
-                </p>
-            </div>
-        </div>
-        <div>
-            
-            <div id="right-about">
-                <div id="circle-container">
-                    <div id="circle-cover-bg"></div>
-                    <h2 id="to-restaurant"><a href="restaurants.html">Restaurants</a></h2>
+    <hr>
+    <!--About us section-->
+    <section class="my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-about">
+                        <h2 class="text-center" id="welcome">About us</h2>
+                        <div class="text-center">
+                            <h2>WHO ARE WE?</h2>
+                            <hr>
+                            <p>We are a vibrant community of Latin American people living in Berlin. Despite the
+                                distance from our home countries, we
+                                remain deeply connected to our rich cultural heritage.
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <h2>PURPOSE</h2>
+                            <hr>
+                            <p>Our purpose is to foster an active and inclusive community of Latin Americans in Berlin.
+                                We aim to promote our diverse
+                                cultures, traditions, and values within the city.</p>
+                        </div>
+                        <div class="text-center">
+                            <h2>WHAT WILL YOU FIND HERE?</h2>
+                            <hr>
+                            <p>Currently, you will find a variety of Latin restaurants and cafes that offer authentic
+                                cuisine and warm hospitality.
+                                However, our vision extends beyond that. We are committed to expanding our community
+                                platform to include a wide range of
+                                shops, services, and exciting events.</p>
+                        </div>
+                        <div class="text-center">
+                            <h2>HOW CAN I BE PART OF THIS COMMUNITY?</h2>
+                            <hr>
+                            <p>Becoming part of our community is easy! Simply visit our sign-up page and subscribe. If
+                                you have a business or event you’d like to promote, leave a comment, and we’ll be sure
+                                to get in touch with you. To access the subscription page directly, <a
+                                    href="signup.html" class="link"><b>click here!!</b></a></p>
+                            <br>
+                            <p>We look forward to welcoming you to our vibrant Latin community in Berlin!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 container">
+                    <div class="row">
+                        <div class="image-park" style="background-image: url('assets/images/park.jpg')"></div>
+                    </div>
+                    <div class="row">
+                        <div class="image-cuba" style="background-image: url('assets/images/cuba.jpg')"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-   
+
     <hr>
     <!--Footer Section-->
-            <footer>
-                <ul class="social-networks">
-                    <li>
-                        <a href="https://facebook.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Facebook page (opens in a new tab)"><i
-                                class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Twitter page (opens in a new tab)"><i
-                                class="fab fa-twitter-square"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://youtube.com" target="_blank" rel="noopener"
-                            aria-label="Visit our YouTube page (opens in a new tab)"><i
-                                class="fab fa-youtube-square"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Instagram page (opens in a new tab)"><i
-                                class="fab fa-instagram"></i></a>
-                    </li>
-                </ul>
-            </footer>
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
 
-            <!-- font awesome script  -->
-            <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    <!-- font awesome script  -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS and other scripts -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
