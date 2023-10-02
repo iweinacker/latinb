@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
-    color: #3a3a3a;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #af9983;
 }
 
 /* headings and logo */
@@ -17,13 +17,25 @@ h3 {
     font-family: Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #884f2b;
+    line-height: 1.2em;
 }
+
+.btn {
+    color: #884f2b;
+}
+
+.link-index {
+    color: #884f2b;
+}
+
 
 #logo {
     float: left;
-    font-size: 280%;
-    margin-left: 30px;
+    font-size: 200%;
+    margin-left: 5%;
+    color: #884f2b;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* navigation links */
@@ -31,6 +43,7 @@ h3 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    color: #884f2b;
 }
 
 #logo,
@@ -41,7 +54,7 @@ h3 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 5%;
 }
 
 #menu a {
@@ -60,40 +73,29 @@ h3 {
 /* Hero image and cover text */
 
 #hero-outer {
-    height: 600px;
+    height: 60vh;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 600px;
+    height: 60vh;
     width: 100%;
     background-image: url(../images/friends.jpg);
-    background-position: 0%;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-    
-#food-image { 
-        height: 600px;
-        width: 100%;
-        background-image: url(../images/restaurant.jpg);
-        background-position: 0%;
-        background-size: cover;
-        background-repeat: no-repeat;
 
-}
+#food-image {
+    height: 60vh;
+    width: 100%;
+    background-image: url(../images/restaurant.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
-/* Creates the level of zoom for hero image */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
 }
 
 #cover-text,
@@ -102,21 +104,21 @@ h3 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 4vh;
     font-family: Arial;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 0, 5vh;
 
-    width: 300px;
-    height: 200px;
+    width: 40vw;
+    height: 30vh;
 
-    padding-top: 40px;
-    padding-left: 10px;
+    padding-top: 5vh;
+    padding-left: 2vw;
 
     background-color: rgba(241, 109, 107, .7);
 
-    bottom: 30px;
-    right: 150px;
+    bottom: 5vh;
+    right: 10vw;
 
     position: absolute;
 
@@ -124,42 +126,36 @@ h3 {
 
 /* Latin ethos */
 
-#latin-ethos {
-    height: 600px;
-}
+/* #left-about {
+    padding-top: 2vh;
+} */
 
-#left-about {
-    padding-top: 30px;
-    width: 50%;
-    float: left;
-}
-
-#right-about {
-    padding-top: 100px;
-    width: 40%;
-    float: right;
-}
+/* #right-about {
+    padding-top: 5vh;
+    width: 100%;
+    float: none;
+} */
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #884f2b;
     width: 100%;
-    margin: 5px 0;
+    height: 3px;
+    margin: 3vh 0;
 }
 
+/* 
 .left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
+    line-height: 2vh;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 5vh;
 }
 
 .right-about-heading {
     width: 30%;
     float: left;
-    line-height: 20px;
+    line-height: 2vh;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 5vh;
 }
 
 .right-about-heading p {
@@ -168,81 +164,54 @@ hr {
 
 .right-about-heading h2 {
     text-align: right;
-}
+} */
 
 /* Latin ethos  image */
 
-#welcome {
-    margin: 20px 0;
+/* #welcome {
+    margin: 2vh 0;
     text-align: center;
-    font-size: 280%;
-}
+    font-size: 4vh;
+} */
 
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
+/* #circle-container {
+    width: 40vh;
+    height: 40vh;
+    padding: 5vh;
     border-style: solid;
-    border-color: #f16c6b;
-    border-width: 5px;
+    border-color: #5a848e;
+    border-width: 1vh;
     margin: 0 auto;
-}
+} */
 
- #to-restaurant{
-   
-    color: black;
+#to-restaurant {
+    margin-top: 1vh;
+    left: 0;
     font-size: smaller;
     text-align: center;
-
- }
-
-#circle-cover-bg {
-    background-image: url(../images/cuba.jpg);
-    background-size: cover;
-    height: 100%;
-    
 }
+
+.image-cuba,
+.image-park {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 500px;
+}
+
+/* .cuba-image {
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/cuba.jpg);
+} */
 
 /* Event times */
 
-.link {
-    color: #cccccc;
-}
-
 #times {
     background-image: url('../images/group-friends.jpg');
-    background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        overflow: hidden;
-    }
-    
-    #times div {
-        color: #fafafa;
-        background-color: rgba(0, 0, 0, .6);
-        width: 20%;
-        height: 300px;
-        float: left;
-        padding: 30px 0 0 10px;
-        text-align: center;
-        border: 2px solid white;
-        box-sizing: border-box;
-    }
-    
-    #times h2 {
-        color: #fafafa;
-    }
-
-/* restaurant*/
-
-.link {
-    color: #cccccc;
-}
-
-#restaurant {
-
-background-image: url(../images/restaurant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -250,28 +219,36 @@ background-image: url(../images/restaurant.jpg);
     overflow: hidden;
 }
 
-#restaurant div {
+#restaurant h2,
+#restaurant h3 {
     color: #fafafa;
-        background-color: rgba(0, 0, 0, .6);
-        width: 20%;
-        height: 400px;
-        float: left;
-        padding: 30px 0 0 10px;
-        text-align: center;
-        border: 2px solid white;
-        box-sizing: border-box;
-    
 }
 
-#restaurant h2, h3 {
-    color: #fafafa;
+/* restaurant*/
+
+.link {
+    color: #884f2b;
+}
+
+.restaurant {
+    background-color: white;
+}
+
+.col {
+    background-color: #5a848e;
+}
+
+.col h2,
+.col h3,
+.col p {
+    color: black;
 }
 
 
 /* Footer */
 
 footer {
-    height: 150px;
+    height: 10vh;
 }
 
 .social-networks {
@@ -284,9 +261,9 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 4vh;
     margin: 1%;
-    padding: 5%;
+    padding: 2%;
     color: #3a3a3a;
 }
 
@@ -296,11 +273,11 @@ footer {
     background: url(../images/coffee.jpg);
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 600px;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 20px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
@@ -309,7 +286,8 @@ footer {
     padding: 30px;
 }
 
-.signup-form>h2, h3 {
+.signup-form>h2,
+h3 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -343,83 +321,3 @@ footer {
     background-color: #fafafa;
     color: #f16c6b;
 }
-
-/* Media queries */
-
-/* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #latin-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin-top: 0;
-        font-size: 150%;
-    }
-
-    #left-about,
-    #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #restaurant div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
-    }
-}
-
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #cover-text {
-        left: 0;
-    }
-
-    #latin-ethos {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading,
-    .right-about-heading {
-        width: inherit;
-    }
-
-    .left-about-heading h2,
-    .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p,
-    .right-about-heading p {
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }
