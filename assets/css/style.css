@@ -21,6 +21,7 @@ h3 {
     line-height: 1.2em;
 }
 
+
 .btn {
     color: #884f2b;
 }
@@ -105,11 +106,6 @@ hr {
 
 
 
-#restaurant h2,
-#restaurant h3 {
-    color: #fafafa;
-}
-
 /* restaurant*/
 
 .link {
@@ -138,7 +134,6 @@ hr {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
-
 
 .signup-form {
     background-color: #f7f7f7;
@@ -170,7 +165,6 @@ label {
 
 .social-networks {
     text-align: center;
-
 }
 
 .social-networks li {
