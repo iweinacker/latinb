@@ -5,7 +5,6 @@ The Latin in Berlin website is designed to be a responsive website allowing the 
 ![image](https://github.com/iweinacker/latinb/assets/130374663/3959ae59-8b45-48a0-bd0e-31d8ad36361f)
 
 
-
 ## features
 
 The website is comprised of three pages, three of which are accessible from the navigation menu: the Home page, Restaurant page, and Sign up page. 
@@ -62,8 +61,7 @@ The website is comprised of three pages, three of which are accessible from the 
 
 ### Colour Scheme
 
-
-As the focus of the restaurant is Chilean cuisine
+As the focus is to be familiarized with Latin america I decided to use Earth Tones, because earthy colors like brown, beige, or olive green can create a sense of connection to nature and reflect the diverse landscapes of Latin America.
 
 ## Technologies Used
 
